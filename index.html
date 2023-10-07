@@ -22,6 +22,17 @@ HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="a
   <title>Document</title>
 </head>
 <body>
+
+  <div id="app">
+
+    <div class="my-container">
+      <ul v-if="arrayEmail.length === maxEmail">
+        <li v-for="email in arrayEmail">{{email}}</li>
+      </ul>
+      <h2 v-else> Caricamento...</h2>
+    </div>
+
+  </div>
   
 
   <!-- Script -->

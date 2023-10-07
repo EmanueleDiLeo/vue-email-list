@@ -1,0 +1,13 @@
+.my-container{
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
